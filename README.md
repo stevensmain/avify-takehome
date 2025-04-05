@@ -25,8 +25,9 @@ You are free to use any libraries that you want (via `npm`) and you can choose h
 
 -  Huge numbers
 -  Tiled icons and numbers
--  A chart of some kind
+-  Multiple charts of some kind
 -  Relative sized colour bands in a giant unicorn's rainbow puke
+-  Responsive design
 
 ## Getting started
 
@@ -69,9 +70,9 @@ An existing website that shows this data is here: https://gridwatch.co.uk/
 -  Let your test reviewer know when you have finished.
 -  Remember you have 6h to complete the test starting when you recieved the email.
 -  Once you finish the test, please send an email to the person who sent you the test with the following information:
-   -  Zip file (without the node_modules) of the project.
+   -  Zip file (without the node_modules) of the project can be a google drive link .
    -  Subject "Avify Take Home React - [Your Name]"
-   -  Link to the deployed app (if apply).
+   -  Link to the deployed app with a public url that our team can visit.
    -  Link to the repository of the project.
    -  Any additional information you want to share with us.
 -  Github link to the project is required with the response email.
