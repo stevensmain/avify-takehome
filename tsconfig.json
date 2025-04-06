@@ -5,11 +5,12 @@
     "sourceMap": true,
     "jsx": "react",
     "experimentalDecorators": true,
-    "lib": [
-      "dom",
-      "es2017"
-    ],
-    "outDir": "./build"
+    "lib": ["dom", "es2017"],
+    "outDir": "./build",
+    "baseUrl": ".",
+    "paths": {
+      "@/*": ["src/*"]
+    }
   },
   "exclude": ["build"]
 }
