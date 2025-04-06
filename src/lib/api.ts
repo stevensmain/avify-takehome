@@ -1,6 +1,6 @@
 import axios, { type AxiosInstance, type AxiosRequestConfig } from 'axios';
 
-const API_BASE_URL = '/api';
+const API_BASE_URL = process.env.API_BASE_URL ?? '/api';
 
 const axiosRequestConfig: AxiosRequestConfig = {
   baseURL: API_BASE_URL,
