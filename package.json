@@ -1,13 +1,13 @@
 {
   "private": true,
-  "type": "module",
   "scripts": {
     "test": "jest",
     "start": "webpack-dev-server --hot --progress",
     "lint": "npx eslint ./src/**/*.{js,jsx,ts,tsx} --fix",
     "format": "npx prettier --write .",
     "prepare": "husky && husky install",
-    "test:watch": "jest --watch"
+    "test:watch": "jest --watch",
+    "build": "webpack --mode production"
   },
   "dependencies": {
     "@radix-ui/react-slot": "^1.1.2",
