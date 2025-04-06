@@ -2,9 +2,9 @@
 
 ## TLDR
 
--  This README describes the test - read it
--  **Everything** you need to know is in this readme
--  Definitely read the 'What are you looking for in the solution?' bit
+- This README describes the test - read it
+- **Everything** you need to know is in this readme
+- Definitely read the 'What are you looking for in the solution?' bit
 
 ## What is this?
 
@@ -23,18 +23,18 @@ Definitely using React!
 How you decide to load and show the data is entirely up to you.
 You are free to use any libraries that you want (via `npm`) and you can choose how you wish to display the data. Some suggestions are:
 
--  Huge numbers
--  Tiled icons and numbers
--  Multiple charts of some kind
--  Relative sized colour bands in a giant unicorn's rainbow puke
--  Responsive design
+- Huge numbers
+- Tiled icons and numbers
+- Multiple charts of some kind
+- Relative sized colour bands in a giant unicorn's rainbow puke
+- Responsive design
 
 ## Getting started
 
--  If you haven't already, fork our GitHub project
--  Get the dependencies - `npm install`
--  Run the app - `npm start` - it will be available at http://localhost:8080
--  Write your code, starting with [`app.tsx`](./src/app.tsx)
+- If you haven't already, fork our GitHub project
+- Get the dependencies - `npm install`
+- Run the app - `npm start` - it will be available at http://localhost:8080
+- Write your code, starting with [`app.tsx`](./src/app.tsx)
 
 ### Where can I find the UK energy generation data?
 
@@ -47,32 +47,32 @@ An existing website that shows this data is here: https://gridwatch.co.uk/
 
 ### What are you looking for in the solution?
 
--  A **simple**, **readable**, **well-factored** solution - not the fanciest charting library or middleware components you can find
--  Some form of visual styling - we don't care what technology you use for this but an un-styled `ul` is not going to cut it
--  Automated tests
+- A **simple**, **readable**, **well-factored** solution - not the fanciest charting library or middleware components you can find
+- Some form of visual styling - we don't care what technology you use for this but an un-styled `ul` is not going to cut it
+- Automated tests
 
 ### Anything else I should know?
 
--  You can use any JavaScript features
--  You can use TypeScript if you prefer (the project is already configured for this)
--  You can use any libraries that you want
--  `npm start` will start a Webpack hot-reload dev server so you can make live changes
--  Testing is appreciated
--  Rquired to deploy the application on a public url
--  We like TypeScript too
--  We like simplicity - a more complicated solution is rarely better than a simple one
--  Some types of chart seem like a really obvious fit but are not actually very good at showing small values in a data set.
--  Extra points for showing the data in a way that is easy to understand at a glance
+- You can use any JavaScript features
+- You can use TypeScript if you prefer (the project is already configured for this)
+- You can use any libraries that you want
+- `npm start` will start a Webpack hot-reload dev server so you can make live changes
+- Testing is appreciated
+- Rquired to deploy the application on a public url
+- We like TypeScript too
+- We like simplicity - a more complicated solution is rarely better than a simple one
+- Some types of chart seem like a really obvious fit but are not actually very good at showing small values in a data set.
+- Extra points for showing the data in a way that is easy to understand at a glance
 
 ## Finishing
 
--  If you have made any changes that require us to do more than just an `npm install` and `npm start` to run your solution then please make this clear in the readme
--  Let your test reviewer know when you have finished.
--  Remember you have 6h to complete the test starting when you recieved the email.
--  Once you finish the test, please send an email to the person who sent you the test with the following information:
-   -  Zip file (without the node_modules) of the project can be a google drive link .
-   -  Subject "Avify Take Home React - [Your Name]"
-   -  Link to the deployed app with a public url that our team can visit.
-   -  Link to the repository of the project.
-   -  Any additional information you want to share with us.
--  Github link to the project is required with the response email.
+- If you have made any changes that require us to do more than just an `npm install` and `npm start` to run your solution then please make this clear in the readme
+- Let your test reviewer know when you have finished.
+- Remember you have 6h to complete the test starting when you recieved the email.
+- Once you finish the test, please send an email to the person who sent you the test with the following information:
+  - Zip file (without the node_modules) of the project can be a google drive link .
+  - Subject "Avify Take Home React - [Your Name]"
+  - Link to the deployed app with a public url that our team can visit.
+  - Link to the repository of the project.
+  - Any additional information you want to share with us.
+- Github link to the project is required with the response email.

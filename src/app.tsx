@@ -1,7 +1,6 @@
 import React from 'react';
+import { GenerationPage } from './modules/generation/pages';
 
-const App = () => <h1>UK Energy Mix</h1>;
-
-export {
-    App
-}
+export const App: React.FC = () => {
+  return <GenerationPage />;
+};
