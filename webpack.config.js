@@ -1,11 +1,15 @@
-const path = require('path');
-const HtmlWebpackPlugin = require('html-webpack-plugin');
-const MiniCssExtractPlugin = require('mini-css-extract-plugin');
+/* eslint-env node */
+import path from 'path';
+import HtmlWebpackPlugin from 'html-webpack-plugin';
+import MiniCssExtractPlugin from 'mini-css-extract-plugin';
+import { fileURLToPath } from 'url';
 
 const host = 'localhost';
 const port = 8080;
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
 
-module.exports = {
+export default {
   mode: 'development',
   context: path.resolve(__dirname, 'src'),
   target: 'web',
